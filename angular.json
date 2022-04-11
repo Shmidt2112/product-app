@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "product": "apps/product",
+    "product-e2e": "apps/product-e2e"
+  }
+}
