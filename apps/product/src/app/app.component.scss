@@ -1,0 +1,30 @@
+
+  .container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media all and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;    
+    }  
+    main {
+        flex: 4;
+        order: 2;
+        min-height: 80vh;
+        margin-top: 20px;
+    }
+    
+    .left-sidebar {
+        order: 1;
+        flex: 1;
+    }
+    .right-sidebar {
+        flex: 1;
+        order: 3;
+    } 
+  }

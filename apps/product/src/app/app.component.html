@@ -1,1 +1,17 @@
-<product-nx-welcome></product-nx-welcome>
+<div class="container">
+    <main>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" routerLink="products" routerLinkActive="active">List Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="create" routerLinkActive="active">Create Product</a>
+            </li>
+        </ul>
+        <div class="mt-2">
+            <router-outlet></router-outlet>
+        </div>
+    </main>
+    <aside class="left-sidebar"></aside>
+    <aside class="right-sidebar"></aside>
+</div>
