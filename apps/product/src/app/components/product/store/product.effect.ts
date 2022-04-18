@@ -7,7 +7,7 @@ import { ProductService } from 'apps/product/src/app/components/product/services
 import { productActionTypes } from 'apps/product/src/app/components/product/store/product.actions';
 import { of } from 'rxjs';
 
-@Injectable()
+@Injectable()sd 
 export class ProductEffects {
 
   loadProducts$ = createEffect(() =>
